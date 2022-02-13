@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo {
+    font-weight: bolder;
+    font-size: 24px;
+}
+.nav-box-items {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #333;
+}
+.nav-button {
+    margin-left: 200px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/* end of head nav  */
+
+/* start of head body  */
+.head-body-box {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around
+
+}
+.head-body-textbox {
+    width: 500px;
+    margin-top: 70px;
+}
+.head-title-box {
+    display: flex;  
+}
+.head-body-title {
+    margin-top: 20px;
+    font-size: 32px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.head-body-text {
+    color: #8F95A5;
+    width: 400px;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom:  30px;
+}
+.head-body-button {
+    background-color: #263238;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+/* end of head  */
+
+/* start of main  */
+.site-skills {
+    position: relative;
+}
+.site-skills-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.site-skills-body {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+.skills-body-item {
+    width: 300px ;
+    padding: 10px;
+    line-height: 30px;
+    background-color:  #F5F5F5;
+    margin: 50px 20px;
+    height: 500px;
+    
+}
+
+.higher-item {
+    height: 700px;
+    padding: 50px 10px;
+    width: 300px ;
+    line-height: 30px;
+    background-color:  #F5F5F5;
+    margin: 50px 20px;
+    
+}
+.skills-body-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.skills-body-text {
+    align-items: center;
+    width: 250px;
+    color:  #8F95A5 ;
+    margin: auto   ;
+    margin-bottom: 30px;
+    
+}
+.skills-body-button {
+    text-align: center;
+    background-color: #263238;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px  30px;
+    border-radius: 10px; 
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+.wider-item {
+    width: 700px;
+    padding: 10px  ;
+    height: 250px;
+    position: absolute;
+    top: 600px;
+    left: 420px;
+
+}
+.wider-box {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+
+}
+.wider-box-text {
+    width: 370px;    
+}
+
+
+.site-about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.site-about-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.site-about-text {
+    width: 500px;
+    font-size: 20px;
+    color:  #8F95A5 ;
+}
+.site-about-numbers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    list-style-type: none;
+    text-align: center;
+}
+.site-about-categories > span {
+    font-size: 24px ;
+    font-weight: bold;
+}
+
+
+.site-prices {
+    margin-top: 100px;
+}
+.site-price-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.site-prices-box {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.site-prices-item {
+    width: 300px;
+}
+.prices-item-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.prices-item-text {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color:  #8F95A5 ;
+}
+.price-item-button {
+    background-color: #F5F5F5;
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 5px;
+    
+}
+
+/* end of main  */
+
+/* start of footer  */
+.site-footer {
+    margin-top: 100px;
+}
+.footer-body {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.footer-text {
+    margin-top: 20px;
+    width: 500px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+input {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+.footer-button {
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #263238;
+    padding: 10px 30px;
+    color:  #fff;
+}
+
+.footer-end {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    font-size: 24px;
+}
+.footer-end > span {
+    color: #8F95A5;
+}
+/* end of css */
